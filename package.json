@@ -1,0 +1,11 @@
+{
+  "name": "personal-portfolio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/DonaldoAyala/personal-portfolio.git",
+  "author": "Donaldo Ayala <<ayala.segoviano.donaldo@gmail.com>>",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel": "^2.0.0-beta.2"
+  }
+}
