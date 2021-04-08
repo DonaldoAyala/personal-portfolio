@@ -56,6 +56,9 @@ header .container nav a {
   font-weight: 700;
   background-color: #222831;
 }
+#about {
+  margin-bottom: 2rem;
+}
 #about .container {
   width: 90%;
   max-width: 1000px;
@@ -119,6 +122,9 @@ header .container nav a {
   max-width: 1000px;
   margin: 0 auto;
   font-size: medium;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 #projects h2 {
   font-family: monospace;
@@ -136,57 +142,48 @@ header .container nav a {
   padding: 1rem 1rem 0 0;
   color: #eeeeee;
 }
-#projects .container {
-  width: 90%;
-  max-width: 1000px;
-  margin: 0 auto;
-  font-size: medium;
-  display: flex;
-  flex-wrap: wrap;
+#projects h2 {
+  justify-content: start;
 }
-#projects .container h2 {
-  font-family: monospace;
-  font-size: xx-large;
-  color: #08d9d6;
-  margin-bottom: 1rem;
-}
-#projects .container h3 {
-  font-size: x-large;
-  font-family: monospace;
-  color: #08d9d6;
-}
-#projects .container p {
-  margin-bottom: 1rem;
-  padding: 1rem 1rem 0 0;
-  color: #eeeeee;
-}
-#projects .container .project {
-  width: 33%;
+#projects .project {
+  width: 40%;
   min-width: 15rem;
-  border: 1px solid red;
+  border: 2px solid black;
   border-radius: 5%;
   box-shadow: inset var(#08d9d6);
   padding: 1rem;
   margin-bottom: 1rem;
   justify-content: center;
+  margin-right: 1rem;
+  background-color: #222831;
 }
-#projects .container .project a {
+#projects .project h3 {
+  background-color: #222831;
+}
+#projects .project a {
   color: #08d9d6;
+  background-color: #222831;
 }
-#projects .container .project .images {
+#projects .project .images {
   display: flex;
   margin-top: 1rem;
+  background-color: #222831;
+  justify-self: center;
+  justify-content: space-between;
 }
-#projects .container .project .images figure {
-  width: 30%;
-  margin-right: 2rem;
-}
-#projects .container .project .images figure img {
-  border-radius: 5%;
+#projects .project .images figure {
   width: 100%;
+  margin: 0 1rem;
+  background-color: #222831;
 }
-#projects .container .project p {
+#projects .project .images figure img {
+  border-radius: 5%;
+  max-width: 100%;
+  max-height: 10rem;
+}
+#projects .project p {
   font-size: 0.9rem;
+  background-color: #222831;
 }
 #wallpaper {
   display: flex;
@@ -199,6 +196,7 @@ header .container nav a {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  margin-bottom: 2rem;
 }
 #wallpaper h1 {
   font-size: 5rem;

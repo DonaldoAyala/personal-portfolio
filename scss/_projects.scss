@@ -3,45 +3,60 @@
 
 #projects {
     @include container;
-    .container {
-        @include container;
-        display: flex;
-        flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+        h2 {
+            justify-content: start;
+        }
 
         .project {
-            width: 33%;
+            width: 40%;
             min-width: 15rem;
-            border: 1px solid red;
+            border: 2px solid black;
             border-radius: 5%;
             box-shadow: inset var($color-light-blue);
             padding: 1rem;
             margin-bottom: 1rem;
             justify-content: center;
+            margin-right: 1rem;
+            background-color: $color-dark-black;
 
+            h3 {
+                background-color: $color-dark-black;
+            }
 
             a {
-                color: #08d9d6;
+                color: $color-light-blue;
+                background-color: $color-dark-black;
             }
 
             .images {
                 display: flex;
                 margin-top: 1rem;
+                background-color: $color-dark-black;
+                justify-self: center;
+                justify-content: space-between;
 
                 figure {
-                    width: 30%;
-                    margin-right: 2rem;
+                    width: 100%;
+                    margin: 0 1rem;
+                    background-color: $color-dark-black;
                     
                     img {
                         border-radius: 5%;
-                        width: 100%;
+                        max-width: 100%;
+                        max-height: 10rem;
                     }
                 }
             }
 
             p {
                 font-size: 0.9rem;
+                background-color: $color-dark-black;
             }
             
         }
-    }
+    
 }

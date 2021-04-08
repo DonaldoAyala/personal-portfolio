@@ -1,6 +1,7 @@
 @import "mixins";
 
 #about {
+    margin-bottom: 2rem;
     .container {
         @include container;
         display: flex;
