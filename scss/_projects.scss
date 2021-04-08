@@ -1,4 +1,5 @@
 @import "mixins";
+@import "colors";
 
 #projects {
     @include container;
@@ -9,10 +10,10 @@
 
         .project {
             width: 33%;
-            min-width: 10rem;
-            
+            min-width: 15rem;
+            border: 1px solid red;
             border-radius: 5%;
-            box-shadow: inset #08d9d6;
+            box-shadow: inset var($color-light-blue);
             padding: 1rem;
             margin-bottom: 1rem;
             justify-content: center;

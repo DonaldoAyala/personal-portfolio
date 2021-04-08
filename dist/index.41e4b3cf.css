@@ -162,9 +162,10 @@ header .container nav a {
 }
 #projects .container .project {
   width: 33%;
-  min-width: 10rem;
+  min-width: 15rem;
+  border: 1px solid red;
   border-radius: 5%;
-  box-shadow: inset #08d9d6;
+  box-shadow: inset var(#08d9d6);
   padding: 1rem;
   margin-bottom: 1rem;
   justify-content: center;
@@ -186,5 +187,23 @@ header .container nav a {
 }
 #projects .container .project p {
   font-size: 0.9rem;
+}
+#wallpaper {
+  display: flex;
+  height: 15rem;
+  width: 100%;
+  justify-content: center;
+  align-content: center;
+  background-image: url("wallpaper.f581c42f.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#wallpaper h1 {
+  font-size: 5rem;
+  background-color: rgba(0, 0, 0, 0);
+  align-self: center;
+  color: #eeeeee;
 }
 /*# sourceMappingURL=index.41e4b3cf.css.map */
