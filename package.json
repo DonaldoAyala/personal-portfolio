@@ -5,7 +5,11 @@
   "repository": "https://github.com/DonaldoAyala/personal-portfolio.git",
   "author": "Donaldo Ayala <<ayala.segoviano.donaldo@gmail.com>>",
   "license": "MIT",
+  "scripts": {
+    "dev": "parcel index.html -p 3030 --no-cache"
+  },
   "devDependencies": {
+    "@parcel/transformer-sass": "2.0.0-beta.2",
     "parcel": "^2.0.0-beta.2"
   }
 }

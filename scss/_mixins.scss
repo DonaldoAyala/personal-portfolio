@@ -1,0 +1,25 @@
+@mixin container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    font-size: medium;
+
+    h2 {
+        font-family: monospace;
+        font-size: xx-large;
+        color: #08d9d6;
+        margin-bottom: 1rem;
+    }
+
+    h3 {
+        font-size: x-large;
+        font-family: monospace;
+        color: #08d9d6;
+    }
+
+    p {
+        margin-bottom: 1rem;
+        padding: 1rem 1rem 0 0;
+        color: #eeeeee;
+    }
+}

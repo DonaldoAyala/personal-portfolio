@@ -1,0 +1,46 @@
+@import "mixins";
+
+#projects {
+    @include container;
+    .container {
+        @include container;
+        display: flex;
+        flex-wrap: wrap;
+
+        .project {
+            width: 33%;
+            min-width: 10rem;
+            
+            border-radius: 5%;
+            box-shadow: inset #08d9d6;
+            padding: 1rem;
+            margin-bottom: 1rem;
+            justify-content: center;
+
+
+            a {
+                color: #08d9d6;
+            }
+
+            .images {
+                display: flex;
+                margin-top: 1rem;
+
+                figure {
+                    width: 30%;
+                    margin-right: 2rem;
+                    
+                    img {
+                        border-radius: 5%;
+                        width: 100%;
+                    }
+                }
+            }
+
+            p {
+                font-size: 0.9rem;
+            }
+            
+        }
+    }
+}
